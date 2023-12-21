@@ -14,6 +14,9 @@
       background-position: center; 
       background-repeat: no-repeat; 
     }
+    meta[name="theme-color"] {
+      display: none;
+    }
   </style>
   <title>Welcome To TukoDev</title> 
 </head>
