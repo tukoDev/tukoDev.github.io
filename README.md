@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Welcome To TukoDev</title>
   <style>
     ion-icon {
       font-size: 76px;
@@ -18,7 +19,6 @@
       display: none;
     }
   </style>
-  <title>Welcome To TukoDev</title> 
 </head>
 <body>
    <a href="https://github.com/tukoDev">
