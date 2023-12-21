@@ -11,7 +11,7 @@
     body {
       margin: 0; 
       padding: 0;
-      background-image: url('https://images.unsplash.com/photo-1555134558-1b6bc80b4fd9?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+      background-image: url('https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?cs=srgb&dl=pexels-vlad-alexandru-popa-1402787.jpg&fm=jpg&w=1920&h=1280');
       background-size: cover; 
       background-position: center; 
       background-repeat: no-repeat; 
@@ -23,6 +23,10 @@
   <title>Welcome To TukoDev</title> 
 </head>
 <body>
+   <a href="https://github.com/tukoDev">
+<ion-icon name="logo-github"></ion-icon> 
+  </a>
+  
   <a href="https://www.instagram.com/tukocde/">
     <ion-icon name="logo-instagram"></ion-icon>
   </a>
