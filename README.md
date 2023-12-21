@@ -6,6 +6,7 @@
     <style>
       ion-icon {
         font-size: 64px;
+        color: pink;
       }
        body {
       background-image: url('"C:\Users\turke\OneDrive\Masaüstü\shubham-dhage-NsPqV-WsZYY-unsplash.jpg"');
