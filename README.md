@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       ion-icon {
-        font-size: 364px;
+        font-size: 64px;
       }
-    </style>
+       body {
+      background-image: url('shubham-dhage-NsPqV-WsZYY-unsplash.jpg');
+      background-size: cover; 
+      background-position: center; 
+      background-repeat: no-repeat; 
+    }
+  </style>
+    <title>Welcome To TukoDev</title>
   </head>
   <body>
     <a href="https://www.instagram.com/tukocde/">
