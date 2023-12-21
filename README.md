@@ -8,7 +8,7 @@
         font-size: 64px;
       }
        body {
-      background-image: url('shubham-dhage-NsPqV-WsZYY-unsplash.jpg');
+      background-image: url('"C:\Users\turke\OneDrive\Masaüstü\shubham-dhage-NsPqV-WsZYY-unsplash.jpg"');
       background-size: cover; 
       background-position: center; 
       background-repeat: no-repeat; 
