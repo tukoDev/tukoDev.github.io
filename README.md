@@ -9,7 +9,7 @@
       color: pink;
     }
     body {
-      background-image: url('C:/Users/turke/OneDrive/Masaüstü/shubham-dhage-NsPqV-WsZYY-unsplash.jpg');
+      background-image: url('https://images.unsplash.com/photo-1636953056323-9c09fdd74fa6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
       background-size: cover; 
       background-position: center; 
       background-repeat: no-repeat; 
