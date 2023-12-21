@@ -17,6 +17,10 @@
     meta[name="theme-color"] {
       display: none;
     }
+ a {
+      display: inline-block;
+      margin: 0;
+    }
   </style>
   <title>Welcome To TukoDev</title> 
 </head>
