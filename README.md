@@ -10,7 +10,6 @@
       margin: 0; 
       padding: 0;
       background-image: url('https://images.pexels.com/photos/1402787/pexels-photo-1402787.jpeg?cs=srgb&dl=pexels-vlad-alexandru-popa-1402787.jpg&fm=jpg&w=1920&h=1280');
-      background-size: 250%;
       background-size: cover; 
       background-position: center; 
       background-repeat: no-repeat; 
