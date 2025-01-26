@@ -1,45 +1,121 @@
 <!doctype html>
 <html lang="en">
   <head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-</head>
-<head>
-  <meta charset="UTF-8">
-  <title>Welcome To TukoDev</title>
-  <style>
-    i {
-      font-size: 76px;
-      color: green;
-    }
-    body {
-      margin: 0; 
-      padding: 0;
-      background-image: url('https://wallpapercave.com/wp/wp11855107.jpg');
-      background-size: cover; 
-      background-position: center; 
-      background-repeat: no-repeat; 
-      display: flex;
-      align-items: center; 
-      justify-content: center;
-      height: 100vh;
-    }
-    a {
-       margin: 8px 8px 180px ;
-    }
-    meta[name="theme-color"] {
-      display: none;
-    }
-  </style>
-</head>
-<body>
-  <a href="https://github.com/tukoDev" target="_blank">
-    <i class="fab fa-github"></i>
-  </a>
-  <a href="https://www.youtube.com/channel/UCwf7sJelCZ94unEU8QOApCQ" target="_blank">
-    <i class="fab fa-youtube"></i>
-  </a>
-  <a href="https://open.spotify.com/playlist/7sL9f9YfXudvEXpKBgBRRE?si=ee8dbd23b4114ab3" target="_blank">
-    <i class="fab fa-spotify"></i>
-  </a>
-</body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To TukoDev</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        background-image: url('https://wallpapercave.com/wp/wp11855107.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+      }
+      h1 {
+        color: white;
+        font-size: 2.5rem;
+        text-align: center;
+        margin-top: 60px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      p {
+        color: white;
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      }
+      .icon-container {
+        display: flex;
+        gap: 50px;
+        align-items: center;
+        justify-content: center;
+        margin-top: calc(50vh - 150px);
+        position: relative;
+      }
+      a {
+        text-decoration: none;
+        opacity: 0;
+        animation: fadeIn 1s forwards ease-in-out;
+      }
+      i {
+        font-size: 76px;
+        color: green;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+      }
+      a:hover i {
+        transform: rotate(360deg) scale(1.2);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+      }
+      footer {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: 0.8rem;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+      }
+      @media (max-width: 768px) {
+        i {
+          font-size: 56px;
+        }
+        .icon-container {
+          margin-top: calc(50vh - 130px); 
+        }
+      }
+      @media (max-width: 480px) {
+        i {
+          font-size: 46px;
+        }
+        .icon-container {
+          margin-top: calc(50vh - 120px); 
+        }
+      }
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to TukoDev</h1>
+    <p>Follow me on GitHub, YouTube, and Spotify !</p>
+    <div class="icon-container">
+      <a href="https://github.com/tukoDev" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://www.youtube.com/channel/UCwf7sJelCZ94unEU8QOApCQ" target="_blank">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://open.spotify.com/playlist/7sL9f9YfXudvEXpKBgBRRE?si=ee8dbd23b4114ab3" target="_blank">
+        <i class="fab fa-spotify"></i>
+      </a>
+    </div>
+    <footer>
+      <p>© 2025 TukoDev. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
